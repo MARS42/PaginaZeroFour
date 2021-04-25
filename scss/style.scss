@@ -1,0 +1,198 @@
+body
+{
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+    padding: 0%;
+
+    .pagina1
+    {
+        height: 100vh;
+        background: url(../imgs/header.jpg);
+        padding-top: 24px;
+        .cabecero
+        {
+            background: rgba(255, 255, 255, 0.1);
+            color: aliceblue;
+            border-radius: 15px;
+            width: 90%;
+            margin: auto;
+            padding: 10px;
+    
+            .contenedor-header
+            {
+                background: #2e3439;
+                border-radius: 15px;
+                padding: 0px 20px;
+                border-color: #090a0a;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                //padding: 10px;
+                //padding: 24px;
+                text-transform: uppercase;
+    
+                ul > li
+                {
+                    display: inline-block;
+                    margin: 0px 12px;
+                }
+            }
+        }
+    
+        .contenedor-main-1
+        {
+            width: 50%;
+            color: aliceblue;
+            border-style: solid none;
+            border-color: rgb(182, 182, 182);
+            border-width: 1px;
+            padding: 10px 0px;
+            margin: 4% auto;
+            text-align: center;
+            
+            .subcontenedor-main
+            {
+                border-style: solid none;
+                border-color: rgb(182, 182, 182);
+                border-width: 1px;
+                text-transform: uppercase;
+            }
+        }
+    
+        .contenedor-main-2
+        {
+            width: 50%;
+            color: aliceblue;
+            padding: 10px 0px;
+            margin: 4% auto;
+            
+            .subcontenedor-main-2
+            {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                text-transform: uppercase;
+                text-align: right;
+    
+                .botton-yesItDoes
+                {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    text-align: center;
+                    justify-content: space-around;
+                    width: 25%;
+                    background: #3579a0;
+                    border-radius: 10px;
+                    padding: 16px;
+                }
+            }
+        }
+
+    }
+
+    .pagina2
+    {
+        height: 100vh;
+        background: url(../imgs/bg02.png);
+        -webkit-box-shadow: inset 0px 29px 41px 2px rgba(0,0,0,0.21);
+        -moz-box-shadow: inset 0px 29px 41px 2px rgba(0,0,0,0.21);
+        box-shadow: inset 0px 29px 41px 2px rgba(0,0,0,0.21);
+        .row
+        {
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            box-sizing: border-box;
+            align-items: stretch;
+            padding-top: 32px;
+
+            .col-12
+            {
+                width: 80%;
+                text-transform: uppercase;
+                text-align: center;
+                border-width: 1px;
+                border-style: none none solid none;
+                border-color: rgb(182, 182, 182);
+                margin: 0 auto 8px auto;
+                color: rgb(49, 49, 49);
+
+                h2
+                {
+                    font-weight: bold;
+                    font-size: 2em;
+                }
+
+                p
+                {
+                    font-weight: 700;
+                }
+            }
+
+            .tarjetas
+            {
+                width: 80%;
+                display: flex;
+                border-width: 1px;
+                border-style: solid none none none;
+                border-color: rgb(182, 182, 182);
+                margin: 0px auto;
+                padding-top: 24px;
+                .col-4
+                {
+                    width: 33.33%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: left;
+                    
+                    a
+                    {
+                        width: 90%;
+                        border-radius: 12px;
+                        overflow: hidden;
+                        img
+                        {
+                            width: 100%;
+                        }
+                    }
+    
+                    .itext
+                    {
+                        display: flex;
+                        align-items: center;
+                        color: gray;
+                        width: 80%;
+                        h3
+                        {
+                            padding: 0%;
+                            margin: 6px 24px;
+                            text-transform: uppercase;
+                            color: rgb(49, 49, 49);
+                        }
+                        p
+                        {
+                            font-size: 0.7em;
+                            padding: 0%;
+                            margin: 6px 24px;
+                            text-transform: uppercase;
+                            color: rgb(49, 49, 49);
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+
+
+            p
+            {
+                text-align: center;
+                margin: 12px 5%;
+                font-size: 1em;
+                color: gray;
+            }
+        }
+    }
+}
